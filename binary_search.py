@@ -1,12 +1,16 @@
 
 
 def binarySearch(array, toFind):
+    """ Returns the index of the number to find in the sorted array"""
+
     print("searching for number " + str(toFind) + " in array :" + str(array))
-    found=False
+
+    found = False
     high = len(array)
     searched = len(array)/2
     while(not found):
         print("trying index " + str(searched))
+        
         if array[searched] == toFind:
             # number found
             found = True
