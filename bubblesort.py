@@ -20,7 +20,7 @@ def test_equal_arrays(result, expected):
 	if result == expected:
 		print(', '.join(str(e) for e in result))
 	else:
-		print("ERROR during sorting : ")
+		print("ERROR, sorting failed : ")
 		print(', '.join(str(e) for e in result))
 
 
