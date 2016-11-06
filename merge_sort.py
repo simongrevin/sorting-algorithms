@@ -33,6 +33,7 @@ def merge(left, right):
 # TODO : use both merge and merge_sort recursively
 
 
+
 array = np.array([38, 27, 43, 3, 9, 82, 10])
 array1 = np.array([10, 5])
 
