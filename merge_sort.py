@@ -29,6 +29,10 @@ def merge(left, right):
     elif len(left) > 1 and len(right) > 1:
         return np.append(merge(np.array_split(left, 2)[0], np.array_split(left, 2)[1]), merge(np.array_split(right, 2)[0], np.array_split(right, 2)[1]))
 
+
+# TODO : use both merge and merge_sort recursively
+
+
 array = np.array([38, 27, 43, 3, 9, 82, 10])
 array1 = np.array([10, 5])
 
